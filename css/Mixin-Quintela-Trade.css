@@ -1,0 +1,41 @@
+.main-trade__body.element-animation {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(-40%); }
+
+.main-trade__body.element-animation.element-show {
+  opacity: 1;
+  transition: all 1s ease 0.5s;
+  transform: translateX(0%); }
+
+.main-trade__title.element-animation {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(30%); }
+
+.main-trade__title.element-animation.element-show {
+  opacity: 1;
+  transition: all 0.8s ease 0.5s;
+  transform: translateX(0%); }
+
+.main-trade__text.element-animation {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(30%); }
+
+.main-trade__text.element-animation.element-show {
+  opacity: 1;
+  transition: all 0.8s ease 0.7s;
+  transform: translateX(0%); }
+
+.main-trade__column-button.element-animation {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateX(30%); }
+
+.main-trade__column-button.element-animation.element-show {
+  opacity: 1;
+  transition: all 0.8s ease 0.9s;
+  transform: translateX(0%); }
+
+/*# sourceMappingURL=Mixin-Quintela-Trade.css.map */

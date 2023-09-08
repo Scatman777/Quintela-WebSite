@@ -1,0 +1,224 @@
+/////////// QUINTELA-COMPANY-STYLE ///////////////////
+
+@mixin Quintela-Company-Style {
+
+    .main-company {
+        display: flex;
+        gap: 5rem;
+        margin: 3.75rem 0px 7.5rem 0px;
+    }
+
+    .main-company__body-company {
+        display: flex;
+        flex-direction: column;
+        gap: 3.75rem;
+        transition: all 0.4s;
+
+    }
+
+    .main-company__block {
+        display: flex;
+        flex-direction: column;
+        gap: 3.75rem;
+    }
+
+    .main-company__body {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 55px;
+    }
+
+    .main-company__vector {
+        display: none;
+    }
+
+    .main-company__item {
+        display: flex;
+        align-items: flex-start;
+        gap: 3.2rem;
+    }
+
+    .main-company__icon-nummber {
+        @include h2;
+        position: relative;
+        bottom: 15px;
+        background: $white;
+        border: 2px solid $blue;
+        color: $blue;
+        padding: 12px 22px;
+    }
+
+    .main-company__line {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 2px;
+        height: 139px;
+        background: $blue;
+    }
+
+    .main-company__block-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem
+    }
+
+    .main-company__title {
+        @include h2;
+        color: $black;
+    }
+
+    .main-company__text {
+        @include text-16px;
+        font-weight: 400;
+        color: $black;
+    }
+
+    @include Media-Quintela-Company;
+}
+
+/////////// QUINTELA-COMPANY-STYLE ///////////////////
+
+/////////// MEDIA-QUINTELA-COMPANY ///////////////////
+
+@mixin Media-Quintela-Company {
+
+    @media (max-width: 1280px) {
+
+        .main-company__line {
+            height: 195px;
+        }
+    }
+
+    @media (max-width: 1020px) {
+
+        .main-company__line {
+            height: 270px;
+        }
+    }
+
+    @media (max-width: 880px) {
+
+        .main-company {
+            flex-direction: column;
+            gap: 6rem;
+            margin: 1rem 0px 4.5rem 0px;
+        }
+
+        .main-company__vector {
+            display: block;
+            position: relative;
+            bottom: 40px;
+            left: 48%;
+            animation: 1.3s ease-in-out 0s infinite vector-animate;
+
+            img {
+                width: 2.5rem;
+                height: auto;
+                color: $blue;
+            }
+
+            @keyframes vector-animate {
+                0% {
+                    top: 1rem;
+                    opacity: 0.8;
+                }
+
+                25% {
+                    top: 2.5rem;
+                    opacity: 0.6;
+
+                }
+
+                50% {
+                    top: 3rem;
+                    opacity: 0.4;
+                }
+
+                75% {
+                    top: 3.5rem;
+                    opacity: 0.2;
+                }
+
+                100% {
+                    top: 4rem;
+                    opacity: 0.1;
+                }
+            }
+        }
+
+        .main-company__body {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            top: 0;
+        }
+
+        .column-style {
+            max-width: 240px;
+        }
+
+        .main-company__line {
+            height: 230px;
+        }
+
+        .section-personal__navigation {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 860px) {
+
+        .main-company {
+            gap: 6rem;
+        }
+
+        .main-company__body {
+            top: 0;
+        }
+    }
+
+    @media (max-width: 725px) {
+        .main-company {
+            gap: 5rem;
+        }
+    }
+
+    @media (max-width: 588px) {
+
+        .main-company__item {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+        }
+
+        .main-company__line {
+            display: none;
+        }
+
+        .column-style {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+}
+
+/////////// MAIN-COMPANY-ANIMATIONS ////////////
+
+.main-company__body.element-animation {
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(-40%);
+}
+
+.main-company__body.element-animation.element-show {
+    opacity: 1;
+    transition: all 1s ease 0.5s;
+    transform: translateX(0%);
+}

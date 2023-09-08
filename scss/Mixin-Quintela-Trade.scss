@@ -1,0 +1,138 @@
+/////////// QUINTELA-TRADE-STYLE ///////////////////
+
+@mixin Quintela-Trade-Style {
+
+    .main-trade {
+        display: flex;
+        gap: 5rem;
+        margin: 3.75rem 0px 7.5rem 0px;
+    }
+
+    .main-trade__body {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 55px;
+    }
+
+    .main-trade__body-trade {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        transition: all 0.4s;
+    }
+
+    .main-trade__column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-trade__title {
+        @include h2;
+    }
+
+    .main-trade__text {
+        @include text-16px;
+        font-weight: 400;
+        color: $black;
+        margin: 2rem 0px 2.5rem 0px;
+    }
+
+    .main-trade__column-button {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .main-trade__button {
+        @include button-blue;
+    }
+
+    @include Media-Quintela-Trade;
+}
+
+/////////// MEDIA-QUINTELA-TRADE ///////////////////
+
+@mixin Media-Quintela-Trade {
+
+    @media (max-width: 880px) {
+
+        .main-trade {
+            flex-direction: column;
+            gap: 6rem;
+            margin: 1rem 0px 4.5rem 0px;
+        }
+
+        .main-trade__body {
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            top: 0;
+        }
+
+        .main-trade__column {
+            text-align: center;
+            gap: 1rem;
+        }
+
+        .main-trade__column-button {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 430px) {
+        .main-trade__column-button {
+            flex-direction: column;
+        }
+    }
+}
+
+/////////// MAIN-TRADE-ANIMATIONS ////////////
+
+.main-trade__body.element-animation {
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(-40%);
+}
+
+.main-trade__body.element-animation.element-show {
+    opacity: 1;
+    transition: all 1s ease 0.5s;
+    transform: translateX(0%);
+}
+
+.main-trade__title.element-animation {
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(30%);
+}
+
+.main-trade__title.element-animation.element-show {
+    opacity: 1;
+    transition: all 0.8s ease 0.5s;
+    transform: translateX(0%);
+}
+
+.main-trade__text.element-animation {
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(30%);
+}
+
+.main-trade__text.element-animation.element-show {
+    opacity: 1;
+    transition: all 0.8s ease 0.7s;
+    transform: translateX(0%);
+}
+
+.main-trade__column-button.element-animation {
+    opacity: 0;
+    transition: all 0.5s;
+    transform: translateX(30%);
+}
+
+.main-trade__column-button.element-animation.element-show {
+    opacity: 1;
+    transition: all 0.8s ease 0.9s;
+    transform: translateX(0%);
+}

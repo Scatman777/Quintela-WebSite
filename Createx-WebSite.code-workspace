@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../Createx-WebSite"
+	},
+	{
+		"path": "../Ferrari-WebSite"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Quintela-WebSite-main"
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAqNA,qCAAsC;EAClC,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,QAAQ;EACpB,SAAS,EAAE,gBAAgB;;AAG/B,kDAAmD;EAC/C,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,gBAAgB;EAC5B,SAAS,EAAE,cAAc",
+"sources": ["../scss/Mixin-Quintela-Company.scss"],
+"names": [],
+"file": "Mixin-Quintela-Company.css"
+}
