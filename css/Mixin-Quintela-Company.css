@@ -1,11 +1,11 @@
 .main-company__body.element-animation {
   opacity: 0;
   transition: all 0.5s;
-  transform: translateX(-40%); }
+  transform: translateX(-40%);
+}
 
 .main-company__body.element-animation.element-show {
   opacity: 1;
   transition: all 1s ease 0.5s;
-  transform: translateX(0%); }
-
-/*# sourceMappingURL=Mixin-Quintela-Company.css.map */
+  transform: translateX(0%);
+}

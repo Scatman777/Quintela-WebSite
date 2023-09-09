@@ -7,8 +7,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -196,63 +194,51 @@ h6 {
     opacity: 0;
     transform: translateX(-40%);
   }
-
   .main-column-info__column:nth-child(1).element-animation.element-show {
     opacity: 1;
     transform: translateX(0%);
   }
-
   .main-column-info__column:nth-child(4).element-animation {
     opacity: 0;
     transform: translateX(40%);
   }
-
   .main-column-info__column:nth-child(4).element-animation.element-show {
     opacity: 1;
     transform: translate(0%);
   }
-
   .main-column-info__column:nth-child(2).element-animation {
     opacity: 0;
     transform: translateX(40%);
   }
-
   .main-column-info__column:nth-child(2).element-animation.element-show {
     opacity: 1;
     transform: translateX(0%);
   }
-
   .main-column-info__column:nth-child(5).element-animation {
     opacity: 0;
     transform: translateX(-40%);
   }
-
   .main-column-info__column:nth-child(5).element-animation.element-show {
     opacity: 1;
     transform: translateX(0%);
   }
-
   .main-column-info__column:nth-child(3).element-animation {
     opacity: 0;
     transform: translateX(-40%);
   }
-
   .main-column-info__column:nth-child(3).element-animation.element-show {
     opacity: 1;
     transform: translateX(0%);
   }
-
   .main-column-info__column:nth-child(6).element-animation {
     opacity: 0;
     transform: translateX(40%);
   }
-
   .main-column-info__column:nth-child(6).element-animation.element-show {
     opacity: 1;
     transform: translateX(0%);
   }
 }
-
 /* MAIN-ROBOTS__TITLE */
 .main-robots__title.element-animation {
   opacity: 0;
@@ -297,7 +283,6 @@ h6 {
   opacity: 0;
   transition: all 0.5s;
 }
-
 .main-robots__section-img.element-animation img {
   width: 0rem;
   height: 0rem;
@@ -307,7 +292,6 @@ h6 {
   opacity: 1;
   transition: all 1s ease 0.5s;
 }
-
 .main-robots__section-img.element-animation.element-show img {
   width: 32.875rem;
   height: 30.75rem;
@@ -318,7 +302,6 @@ h6 {
     transition: all 0.5s ease 0.3s;
   }
 }
-
 /* MAIN-CONSTRUCTION__TITLE */
 .main-construction__title.element-animation {
   font-size: 20px;
@@ -438,33 +421,27 @@ h6 {
     transition: all 0.7s;
     transform: translateX(-40%);
   }
-
   .main-news__column:nth-child(1).element-animation.element-show {
     transition: all 0.7s ease 0.2s;
     transform: translateX(0%);
   }
-
   .main-news__column:nth-child(2).element-animation {
     transition: all 0.7s;
     transform: translateX(-40%);
   }
-
   .main-news__column:nth-child(2).element-animation.element-show {
     transform: translateX(0%);
     transition: all 0.7s ease 0.6s;
   }
-
   .main-news__column:nth-child(3).element-animation {
     transition: all 0.7s;
     transform: translateX(-40%);
   }
-
   .main-news__column:nth-child(3).element-animation.element-show {
     transition: all 0.7s ease 1s;
     transform: translateX(0%);
   }
 }
-
 /* FOOTER__BLOCK-COLUMN */
 .footer__block-column-text.element-animation {
   opacity: 0;
@@ -530,59 +507,50 @@ h6 {
 }
 
 @media (max-width: 1270px) {
-
   /* FOOTER__LOGO */
   .footer__logo.element-animation {
     opacity: 0;
     transition: all 0.5s;
     transform: translateY(-40%);
   }
-
   .footer__logo.element-animation.element-show {
     opacity: 1;
     transition: all 1s ease 0.3s;
     transform: translateY(0%);
   }
-
   /* FOOTER__COLUMN */
   .footer__column:nth-child(1).element-animation {
     opacity: 0;
     transition: all 0.5s;
     transform: translateY(-40%);
   }
-
   .footer__column:nth-child(1).element-animation.element-show {
     opacity: 1;
     transition: all 1s ease 0.6s;
     transform: translateY(0%);
   }
-
   .footer__column:nth-child(2).element-animation {
     opacity: 0;
     transition: all 0.5s;
     transform: translateY(-40%);
   }
-
   .footer__column:nth-child(2).element-animation.element-show {
     opacity: 1;
     transition: all 1s ease 0.9s;
     transform: translateY(0%);
   }
-
   /* FOOTER__BLOCK-COLUMN-TEXT */
   .footer__block-column-text.element-animation {
     opacity: 0;
     transition: all 0.5s;
     transform: translateY(-40%);
   }
-
   .footer__block-column-text.element-animation.element-show {
     opacity: 1;
     transition: all 1s ease 0.9s;
     transform: translateY(0%);
   }
 }
-
 /* SECTION-MENU */
 .main-content__body.element-animation {
   opacity: 0;
@@ -833,7 +801,6 @@ h6 {
     order: 0;
   }
 }
-
 /* BODY */
 .main-content {
   display: flex;
@@ -859,10 +826,9 @@ h6 {
 
 .section-menu__column {
   min-width: 266px;
-  background: #1840A780;
+  background: rgba(24, 64, 167, 0.5019607843);
   transition: all 0.4s;
 }
-
 .section-menu__column:hover {
   background: #1840A7;
   transition: all 0.4s;
@@ -879,7 +845,7 @@ h6 {
 }
 
 .section-menu__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -904,21 +870,18 @@ h6 {
   display: flex;
   flex-wrap: wrap;
 }
-
 .section-personal__navigation a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 400;
   font-size: 13px;
   line-height: 140%;
   color: #1840A7;
 }
-
 .section-personal__navigation a:nth-child(2)::before {
   content: url("./img/sq.svg");
   display: inline-flex;
   padding: 0px 1rem;
 }
-
 .section-personal__navigation a:nth-child(2)::after {
   content: url("./img/sq.svg");
   display: inline-flex;
@@ -944,7 +907,8 @@ h6 {
 .block-news__img img {
   width: 29rem;
   height: 18rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .block-news__column {
@@ -957,7 +921,7 @@ h6 {
 }
 
 .block-news__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -966,7 +930,7 @@ h6 {
 }
 
 .block-news__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -983,7 +947,7 @@ h6 {
 }
 
 .block-info__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1009,7 +973,7 @@ h6 {
 }
 
 .block-info__icon-nummber {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1020,7 +984,7 @@ h6 {
 }
 
 .block-info__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1043,7 +1007,7 @@ h6 {
 }
 
 .section-news__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1057,7 +1021,8 @@ h6 {
 .section-news__img img {
   width: 28rem;
   height: 20rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (max-width: 1325px) {
@@ -1065,75 +1030,62 @@ h6 {
     flex-direction: column;
     align-items: center;
   }
-
   .block-news__column {
     max-width: 100%;
     text-align: center;
   }
-
   .block-news__img img {
     width: 60vw;
     height: 25vw;
   }
 }
-
 @media (max-width: 1260px) {
   .section-news__body {
     flex-direction: row;
   }
-
   .section-news__column {
     flex-direction: column;
   }
-
   .section-news__img img {
     width: 30vw;
     height: 20vw;
   }
 }
-
 @media (max-width: 1110px) {
   .block-news__img img {
     width: 50vw;
     height: 25vw;
   }
 }
-
 @media (max-width: 1080px) {
   .section-news__img img {
     width: 28vw;
     height: 30vw;
   }
 }
-
 @media (max-width: 940px) {
   .main-content {
     flex-direction: column;
     gap: 8rem;
     margin: 1rem 0px 4.5rem 0px;
   }
-
   .main-content__body {
     top: 0;
   }
-
   .main-content__section-menu {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
   }
-
   .block-news__img img {
     width: 85vw;
     height: 30vw;
   }
-
   .section-news__img img {
     width: 43vw;
     height: 40vw;
   }
-
   .main-content__vector {
     display: block;
     position: relative;
@@ -1141,115 +1093,95 @@ h6 {
     left: 48%;
     animation: 1.3s ease-in-out 0s infinite vector-animate;
   }
-
   .main-content__vector img {
     width: 2.5rem;
     height: auto;
     color: #1840A7;
   }
-
   @keyframes vector-animate {
     0% {
       top: 1rem;
       opacity: 0.8;
     }
-
     25% {
       top: 2.5rem;
       opacity: 0.6;
     }
-
     50% {
       top: 3rem;
       opacity: 0.4;
     }
-
     75% {
       top: 3.5rem;
       opacity: 0.2;
     }
-
     100% {
       top: 4rem;
       opacity: 0.1;
     }
   }
 }
-
 @media (max-width: 860px) {
   .main-content {
     gap: 6rem;
     margin: 1rem 0px 4.5rem 0px;
   }
 }
-
 @media (max-width: 725px) {
   .main-content__body {
     grid: 5rem;
   }
 }
-
 @media (max-width: 700px) {
   .block-news__img img {
     width: 85vw;
     height: 40vw;
   }
-
   .section-news__body {
     flex-direction: column;
     text-align: center;
   }
-
   .section-news__column {
     gap: 3rem;
   }
-
   .section-news__text {
     max-width: 100%;
   }
-
   .section-news__img img {
     width: 93vw;
     height: 40vw;
   }
 }
-
 @media (max-width: 588px) {
   .section-personal__wrapper {
     padding: 1rem;
   }
-
   .section-menu-column {
     max-width: 100%;
     width: 100%;
   }
 }
-
 @media (max-width: 485px) {
   .section-personal__navigation {
     gap: 1rem;
   }
 }
-
 @media (max-width: 460px) {
   .block-news__img img {
     width: 80vw;
     height: 65vw;
   }
-
   .section-news__img img {
     width: 93vw;
     height: 65vw;
   }
 }
-
 @media (max-width: 360px) {
   .section-news__img img {
     width: 93vw;
     height: 95vw;
   }
 }
-
 .main-company {
   display: flex;
   gap: 5rem;
@@ -1287,7 +1219,7 @@ h6 {
 }
 
 .main-company__icon-nummber {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1316,7 +1248,7 @@ h6 {
 }
 
 .main-company__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1325,7 +1257,7 @@ h6 {
 }
 
 .main-company__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1339,20 +1271,17 @@ h6 {
     height: 195px;
   }
 }
-
 @media (max-width: 1020px) {
   .main-company__line {
     height: 270px;
   }
 }
-
 @media (max-width: 880px) {
   .main-company {
     flex-direction: column;
     gap: 6rem;
     margin: 1rem 0px 4.5rem 0px;
   }
-
   .main-company__vector {
     display: block;
     position: relative;
@@ -1360,40 +1289,33 @@ h6 {
     left: 48%;
     animation: 1.3s ease-in-out 0s infinite vector-animate;
   }
-
   .main-company__vector img {
     width: 2.5rem;
     height: auto;
     color: #1840A7;
   }
-
   @keyframes vector-animate {
     0% {
       top: 1rem;
       opacity: 0.8;
     }
-
     25% {
       top: 2.5rem;
       opacity: 0.6;
     }
-
     50% {
       top: 3rem;
       opacity: 0.4;
     }
-
     75% {
       top: 3.5rem;
       opacity: 0.2;
     }
-
     100% {
       top: 4rem;
       opacity: 0.1;
     }
   }
-
   .main-company__body {
     flex-direction: row;
     justify-content: center;
@@ -1401,36 +1323,29 @@ h6 {
     gap: 15px;
     top: 0;
   }
-
   .column-style {
     max-width: 240px;
   }
-
   .main-company__line {
     height: 230px;
   }
-
   .section-personal__navigation a {
     font-size: 16px;
   }
 }
-
 @media (max-width: 860px) {
   .main-company {
     gap: 6rem;
   }
-
   .main-company__body {
     top: 0;
   }
 }
-
 @media (max-width: 725px) {
   .main-company {
     gap: 5rem;
   }
 }
-
 @media (max-width: 588px) {
   .main-company__item {
     flex-direction: column;
@@ -1438,17 +1353,14 @@ h6 {
     text-align: center;
     gap: 1rem;
   }
-
   .main-company__line {
     display: none;
   }
-
   .column-style {
     max-width: 100%;
     width: 100%;
   }
 }
-
 .main-trade {
   display: flex;
   gap: 5rem;
@@ -1475,7 +1387,7 @@ h6 {
 }
 
 .main-trade__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1483,7 +1395,7 @@ h6 {
 }
 
 .main-trade__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1503,15 +1415,13 @@ h6 {
   transition: all 0.4s;
   background: rgba(24, 64, 167, 0.5);
 }
-
 .main-trade__button a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
 }
-
 .main-trade__button:hover {
   transition: all 0.4s;
   background: #1840A7;
@@ -1523,7 +1433,6 @@ h6 {
     gap: 6rem;
     margin: 1rem 0px 4.5rem 0px;
   }
-
   .main-trade__body {
     flex-direction: row;
     justify-content: center;
@@ -1531,41 +1440,34 @@ h6 {
     gap: 15px;
     top: 0;
   }
-
   .main-trade__column {
     text-align: center;
     gap: 1rem;
   }
-
   .main-trade__column-button {
     justify-content: center;
   }
 }
-
 @media (max-width: 430px) {
   .main-trade__column-button {
     flex-direction: column;
   }
 }
-
 @font-face {
-  font-family: 'Proxima nova';
+  font-family: "Proxima nova";
   src: local("Proxima nova"), url(./fonts/ProximaNova-Regular.woff) format(woff), url(./fonts/ProximaNova-Regular.woff2) format(woff2);
   font-weight: 400;
 }
-
 @font-face {
-  font-family: 'Proxima nova';
+  font-family: "Proxima nova";
   src: local("Proxima nova"), url(./fonts/ProximaNova-Semibold.woff) format(woff), url(./fonts/ProximaNova-Semibold.woff2) format(woff2);
   font-weight: 600;
 }
-
 @font-face {
-  font-family: 'Proxima nova';
+  font-family: "Proxima nova";
   src: local("Proxima nova"), url(./fonts/ProximaNova-Bold.woff) format(woff), url(./fonts/ProximaNova-Bold.woff2) format(woff2);
   font-weight: 700;
 }
-
 /* Font */
 /* variables */
 html,
@@ -1617,13 +1519,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.30rem 0px;
+  padding: 2.3rem 0px;
 }
 
 .header__logo img {
   width: 235px;
   height: 65px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .header__input {
@@ -1636,9 +1539,8 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .header__input-menu input {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1649,14 +1551,12 @@ body {
   background: none;
   transition: all 0.4s;
 }
-
 .header__input-menu input:hover {
-  background: #77777769;
+  background: rgba(119, 119, 119, 0.4117647059);
   transition: all 0.4s;
 }
-
 .header__input-menu a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1668,9 +1568,8 @@ body {
   display: flex;
   gap: 20px;
 }
-
 .header__lang a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1693,15 +1592,13 @@ body {
 .header__item {
   transition: all 0.6s;
 }
-
 .header__item a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
 }
-
 .header__item:hover {
   border-bottom: 1px solid #FFFFFF;
   transition: all 0.6s;
@@ -1726,7 +1623,7 @@ body {
 }
 
 .main__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
@@ -1741,15 +1638,13 @@ body {
   border: 1px solid #FFFFFF;
   background: none;
 }
-
 .main__button a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
 }
-
 .main__button:hover {
   transition: all 0.4s;
   background: #1840A7;
@@ -1769,12 +1664,11 @@ body {
   border-radius: 50%;
   padding: 10px;
 }
-
 .main__title-ellipse h1 {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   padding: 82px 29px;
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
@@ -1782,7 +1676,7 @@ body {
 }
 
 .main__text-ellipse {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1805,12 +1699,10 @@ body {
   border: 2px solid rgba(24, 64, 167, 0.5);
   transition: all 0.7s ease 0.3s;
 }
-
 .main-column-info__column:hover {
   background: #1840A7;
   transition: all 0.7s;
 }
-
 .main-column-info__column:hover .main-column-info__number,
 .main-column-info__column:hover h3,
 .main-column-info__column:hover a {
@@ -1826,7 +1718,7 @@ body {
 }
 
 .main-column-info__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1841,7 +1733,7 @@ body {
 }
 
 .main-column-info__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1851,7 +1743,7 @@ body {
 }
 
 .main-column-info__number {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 96px;
   line-height: 140%;
@@ -1878,7 +1770,7 @@ body {
 }
 
 .main-robots__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -1886,7 +1778,7 @@ body {
 }
 
 .main-robots__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1906,15 +1798,13 @@ body {
   transition: all 0.4s;
   background: rgba(24, 64, 167, 0.5);
 }
-
 .main-robots__button a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
 }
-
 .main-robots__button:hover {
   transition: all 0.4s;
   background: #1840A7;
@@ -1934,7 +1824,7 @@ body {
 }
 
 .main-construction__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
@@ -1943,7 +1833,7 @@ body {
 }
 
 .main-construction__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -1983,7 +1873,7 @@ body {
 }
 
 .main-construction__text-column {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 24px;
   line-height: 140%;
@@ -2004,7 +1894,7 @@ body {
 }
 
 .main-news__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
@@ -2033,11 +1923,12 @@ body {
 .main-news__img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .main-news__title-column {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2047,7 +1938,7 @@ body {
 }
 
 .main-news__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2062,15 +1953,13 @@ body {
   transition: all 0.4s;
   background: rgba(24, 64, 167, 0.5);
 }
-
 .main-news__button a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #FFFFFF;
 }
-
 .main-news__button:hover {
   transition: all 0.4s;
   background: #1840A7;
@@ -2098,11 +1987,11 @@ body {
 .footer__logo {
   margin: 0px 100px 0px 0px;
 }
-
 .footer__logo img {
   width: 235px;
   height: 65px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer__column {
@@ -2128,13 +2017,11 @@ body {
 .footer__item {
   list-style: square inside;
 }
-
 .footer__item::marker {
   color: #FFFFFF;
 }
-
 .footer__item a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2143,7 +2030,7 @@ body {
 }
 
 .footer__title {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2151,7 +2038,7 @@ body {
 }
 
 .footer__text {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2166,7 +2053,7 @@ body {
 }
 
 .footer__text-block-down {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2177,7 +2064,7 @@ body {
 }
 
 .footer__text-block-down-bold {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2205,26 +2092,24 @@ body {
   position: relative;
   display: flex;
 }
-
 .headerburger-menu::after {
   position: absolute;
   top: 8px;
   right: 0;
-  content: '';
+  content: "";
 }
-
 .headerburger-menu::before {
   position: absolute;
   top: -8px;
   right: 0;
-  content: '';
+  content: "";
 }
 
 label {
   cursor: pointer;
 }
 
-input[type="checkbox"]:checked~.headerburger-list,
+input[type=checkbox]:checked ~ .headerburger-list,
 .homelanguages-wrapper {
   right: 0px;
   transform: translateX(0vw);
@@ -2246,7 +2131,7 @@ input[type="checkbox"]:checked~.headerburger-list,
 }
 
 .headerburger-list a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
@@ -2279,9 +2164,8 @@ input[type="checkbox"]:checked~.headerburger-list,
   display: flex;
   gap: 20px;
 }
-
 .header__lang-burger a {
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
@@ -2295,78 +2179,65 @@ input[type="checkbox"]:checked~.headerburger-list,
     justify-content: space-around;
   }
 }
-
 @media (max-width: 725px) {
   .border-top {
     border: 0px;
   }
-
   .border-bottom {
     border: 0px;
   }
-
   .header__body-up {
     flex-direction: column;
     gap: 35px;
     text-align: center;
     padding: 1.3rem 0px 1.3rem 0px;
   }
-
   .header__body-down {
     padding: 0px;
   }
-
   .header__block {
     display: flex;
     position: relative;
     left: 200px;
     bottom: 125px;
   }
-
   .header__menu {
     display: none;
   }
-
   .header__lang {
     display: none;
   }
 }
-
 @media (max-width: 510px) {
   .header__input {
     flex-direction: column;
   }
-
   .header__input input {
     width: 180px;
   }
-
   .header__block {
     left: 160px;
     bottom: 153px;
   }
-
   .header__logo img {
     width: 150px;
     height: 41px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
-
 @media (max-width: 460px) {
   .header__block {
     left: 115px;
     bottom: 153px;
   }
 }
-
 @media (max-width: 360px) {
   .header__block {
     left: 85px;
     bottom: 153px;
   }
 }
-
 .navigation {
   display: flex;
   align-items: flex-end;
@@ -2377,7 +2248,7 @@ input[type="checkbox"]:checked~.headerburger-list,
   transform: scale(1.1);
 }
 
-input[name="r"] {
+input[name=r] {
   position: absolute;
   visibility: hidden;
 }
@@ -2404,31 +2275,26 @@ input[name="r"] {
   animation: slide 10s infinite;
   filter: brightness(60%);
 }
-
 .slides .slide:nth-child(1) {
   background-image: url("./img/1.svg");
   background-size: cover;
-  animation-delay: -0;
+  animation-delay: 0;
 }
-
 .slides .slide:nth-child(2) {
   background-image: url("./img/2.jpg");
   background-size: cover;
   animation-delay: -2s;
 }
-
 .slides .slide:nth-child(3) {
   background-image: url("./img/3.jpg");
   background-size: cover;
   animation-delay: -4s;
 }
-
 .slides .slide:nth-child(4) {
   background-image: url("./img/4.jpg");
   background-size: cover;
   animation-delay: -6s;
 }
-
 .slides .slide:nth-child(5) {
   background-image: url("./img/5.jpg");
   background-size: cover;
@@ -2436,25 +2302,19 @@ input[name="r"] {
 }
 
 @keyframes slide {
-
-  0%,
-  15%,
-  100% {
+  0%, 15%, 100% {
     transform: translateX(0);
     animation-timing-function: ease;
   }
-
   25% {
     transform: translateX(-100%);
     animation-timing-function: step-end;
   }
-
   95% {
     transform: translateX(100%);
     animation-timing-function: ease;
   }
 }
-
 .bar {
   width: 40px;
   height: 4px;
@@ -2463,26 +2323,25 @@ input[name="r"] {
   background-color: #FFFFFF;
   transition: all 0.4s ease;
 }
-
 .bar:hover {
   transform: scale(1.1);
   height: 8px;
 }
 
-input[name="r"] {
+input[name=r] {
   position: absolute;
   visibility: hidden;
 }
 
-#r1:checked~.s1 {
+#r1:checked ~ .s1 {
   margin-left: 0;
 }
 
-#r2:checked~.s1 {
+#r2:checked ~ .s1 {
   margin-left: -25%;
 }
 
-#r3:checked~.s1 {
+#r3:checked ~ .s1 {
   margin-left: -50%;
 }
 
@@ -2492,224 +2351,186 @@ input[name="r"] {
     gap: 0px;
   }
 }
-
 @media (max-width: 907px) {
   .main__body {
     justify-content: center;
     text-align: center;
   }
-
   .main__block {
     align-items: center;
   }
-
   .main__title {
     width: 100%;
     text-wrap: balance;
   }
 }
-
 @media (max-width: 725px) {
   .main__block {
     margin: 7.5rem 0px 7rem 0px;
   }
 }
-
 @media (max-width: 450px) {
   .main__title {
     font-size: 8vw;
   }
-
   .main__button {
     width: 100%;
     padding: 10px 0px;
   }
 }
-
 @media (max-width: 350px) {
   .main__title {
     font-size: 9vw;
   }
 }
-
 @media (max-width: 884px) {
   .main-column-info__item {
     max-width: 75%;
     align-items: center;
   }
 }
-
 @media (max-width: 560px) {
   .main-column-info__item {
     flex-direction: column-reverse;
     text-align: center;
     max-width: 100%;
   }
-
   .main-column-info__number {
     margin: 0px;
   }
 }
-
 @media (max-width: 1024px) {
   .main-robots__body {
     flex-direction: column-reverse;
     gap: 30px;
   }
-
   .main-robots__section {
     max-width: 75%;
     text-align: center;
   }
-
   .main-robots__section-img img {
     width: 80vw;
     height: 30vw;
-    object-fit: cover;
-    object-position: bottom;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom;
+       object-position: bottom;
   }
 }
-
 @media (max-width: 850px) {
   .main-robots__section-img img {
     width: 100vw;
   }
 }
-
 @media (max-width: 600px) {
   .main-robots__section {
     max-width: 100%;
     text-wrap: balance;
   }
-
   .main-robots__section-img img {
     height: 40vw;
   }
 }
-
 @media (max-width: 460px) {
   .main-robots__button-column {
     flex-direction: column;
   }
-
   .main-robots__section-img img {
     height: 55vw;
   }
 }
-
 @media (max-width: 768px) {
   .main-construction__body {
     text-align: center;
   }
-
   .main-construction__block-column {
     flex-direction: column;
   }
 }
-
 @media (max-width: 600px) {
   .main-construction__text {
     max-width: 100%;
   }
-
   .main-construction__item {
     max-width: 100%;
   }
 }
-
 @media (max-width: 480px) {
   .main-construction__title {
     font-size: 8vw;
   }
 }
-
 @media (max-width: 1070px) {
   .main-news__block-column {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-
   .main-news__item {
     max-width: 440px;
   }
 }
-
 @media (max-width: 640px) {
   .main-news__item {
     max-width: 100%;
   }
 }
-
 @media (max-width: 425px) {
   .main-news__item {
     text-align: center;
   }
-
   .main-news__button {
     width: 100%;
   }
 }
-
 @media (max-width: 425px) {
   .main-news__img img {
     width: 80vw;
     height: 50vw;
   }
 }
-
 @media (max-width: 768px) {
-
   .main-column-info__body,
   .main-news__body {
     margin: 7.5rem 0px 7.5rem 0px;
   }
-
   .main-robots__body,
   .main-construction__body {
     margin: 0px 0px 7.5rem 0px;
   }
 }
-
 @media (max-width: 1270px) {
   .footer__block {
     flex-direction: column;
     align-items: center;
     gap: 4rem;
   }
-
   .footer__block-column {
     justify-content: center;
     flex-wrap: wrap;
     width: 75%;
   }
-
   .footer__list {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     width: 315px;
   }
-
   .footer__block-column-text {
     text-align: center;
   }
-
   .footer__logo {
     margin: 0px;
   }
 }
-
 @media (max-width: 875px) {
   .footer__block-column {
     width: 100%;
     gap: 3rem;
   }
-
   .footer__block-column-text {
     width: 100%;
   }
 }
-
 @media (max-width: 750px) {
   .footer__block-down {
     flex-direction: column;
@@ -2717,5 +2538,3 @@ input[name="r"] {
     gap: 3rem;
   }
 }
-
-/*# sourceMappingURL=Quintela.css.map */
