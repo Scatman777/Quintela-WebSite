@@ -91,18 +91,6 @@ h6 {
   flex: 1 1 auto;
 }
 
-.header.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateY(-40%);
-}
-
-.header.element-animation.element-show {
-  opacity: 1;
-  transition: all 0.7s ease 0.3s;
-  transform: translateY(0%);
-}
-
 /* MAIN__BLOCK */
 .main__block.element-animation {
   opacity: 0;
@@ -264,107 +252,6 @@ h6 {
   transition: all 1.3s ease 0.5s;
   transform: translateX(0%);
 }
-
-/* MAIN-ROBOTS__BUTTON-COLUMN */
-.main-robots__button-column.element-animation {
-  opacity: 0;
-  transition: all 1.3s;
-  transform: translateX(-25%);
-}
-
-.main-robots__button-column.element-animation.element-show {
-  opacity: 1;
-  transition: all 1.3s ease 1s;
-  transform: translateX(0%);
-}
-
-/* MAIN-ROBOTS__SECTION-IMG */
-.main-robots__section-img.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-}
-.main-robots__section-img.element-animation img {
-  width: 0rem;
-  height: 0rem;
-}
-
-.main-robots__section-img.element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease 0.5s;
-}
-.main-robots__section-img.element-animation.element-show img {
-  width: 32.875rem;
-  height: 30.75rem;
-}
-
-@media (max-width: 1024px) {
-  .main-robots__section-img.element-animation.element-show {
-    transition: all 0.5s ease 0.3s;
-  }
-}
-/* MAIN-CONSTRUCTION__TITLE
-.main-construction__title.element-animation {
-  font-size: 20px;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.main-construction__title.element-animation.element-show {
-  font-size: 40px;
-  opacity: 1;
-  transition: all 0.5s ease-in-out 0.3s;
-}
-
-/* MAIN-CONSTRUCTION__TEXT */
-/* .main-construction__text.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateY(25%);
-}
-
-.main-construction__text.element-animation.element-show {
-  opacity: 1;
-  transition: all 0.5s ease-in-out 0.5s;
-  transform: translateY(0%);
-}
-
-/* MAIN-CONSTRUCTION__COLUMN*/
-/* .main-construction__column:nth-child(1).element-animation {
-  opacity: 0;
-  transition: all 1s;
-  transform: translateX(-40%);
-}
-
-.main-construction__column:nth-child(1).element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease 0.5s;
-  transform: translateX(0%);
-}
-
-.main-construction__column:nth-child(2).element-animation {
-  opacity: 0;
-  transition: all 1s;
-  transform: translateX(40%);
-}
-
-.main-construction__column:nth-child(2).element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease 0.5s;
-  transform: translateX(0%);
-} */
-
-/* MAIN-NEWS__TTITLE */
-/* .main-news__title.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateY(-40%);
-}
-
-.main-news__title.element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease;
-  transform: translateY(0%);
-} */
 
 /* MAIN-NEWS__BUTTON */
 .main-news__button.element-animation {
@@ -724,66 +611,6 @@ h6 {
 .section-news__text:nth-child(2).element-animation.element-show {
   opacity: 1;
   transition: all 1s ease 1s;
-  transform: translateX(0%);
-}
-
-.main-company__body.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(-40%);
-}
-
-.main-company__body.element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease 0.5s;
-  transform: translateX(0%);
-}
-
-.main-trade__body.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(-40%);
-}
-
-.main-trade__body.element-animation.element-show {
-  opacity: 1;
-  transition: all 1s ease 0.5s;
-  transform: translateX(0%);
-}
-
-.main-trade__title.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(30%);
-}
-
-.main-trade__title.element-animation.element-show {
-  opacity: 1;
-  transition: all 0.8s ease 0.5s;
-  transform: translateX(0%);
-}
-
-.main-trade__text.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(30%);
-}
-
-.main-trade__text.element-animation.element-show {
-  opacity: 1;
-  transition: all 0.8s ease 0.7s;
-  transform: translateX(0%);
-}
-
-.main-trade__column-button.element-animation {
-  opacity: 0;
-  transition: all 0.5s;
-  transform: translateX(30%);
-}
-
-.main-trade__column-button.element-animation.element-show {
-  opacity: 1;
-  transition: all 0.8s ease 0.9s;
   transform: translateX(0%);
 }
 
