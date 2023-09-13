@@ -2085,7 +2085,6 @@ input[name=r] {
 }
 
 .main-swiper .swiper-slide:nth-child(1) {
-	background: url("/css/img/first-screen.jpg") center / cover no-repeat;
 }
 
 /* .slides {
