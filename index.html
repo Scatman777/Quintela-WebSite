@@ -110,21 +110,15 @@
 						</aside>
 					</div>
 				</div>
-				<div class="main-swiper">
-					<ul class="main-swiper__list swiper-wrapper">
-						<li class="main-swiper__item swiper-slide">
-							<img src="/css/img/1.jpg" alt="cover">
-						</li>
-						<li class="main-swiper__item swiper-slide">
-							<img src="/css/img/2.jpg" alt="cover">
-						</li>
-						<li class="main-swiper__item swiper-slide">
-							<img src="/css/img/3.jpg" alt="cover">
-						</li>
-						<li class="main-swiper__item swiper-slide">
-							<img src="/css/img/4.jpg" alt="cover>
-						</li>
-					</ul>
+				<div class="sliders">
+					<div class="single-slider" style="background-image: url('/img/image.svg'); height: 800px;">
+					</div>
+					<div class="single-slider" style="background-image: url('/img/1.jpg'); height: 800px;">
+					</div>
+					<div class="single-slider" style="background-image: url('/img/2.jpg'); height: 800px;">
+					</div>
+					<div class="single-slider" style="background-image: url('/img/3.jpg'); height: 800px;">
+					</div>
 				</div>
 			</div>
 		</main>
@@ -376,4 +370,22 @@
 		</footer>
 	</div>
 	<script src="./js/Quintela.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.sliders').slick({
+				autoplay:true,
+				autoplaySpeed: 1500,
+				speed: 1300,
+				easing: 'ease',
+				loop: true,
+				dots: true,
+				infinite: true,
+				slidesToShow: 1,
+				pauseOnHover: false,
+				draggable: false
+			});
+		});
+	</script>
 </body>
