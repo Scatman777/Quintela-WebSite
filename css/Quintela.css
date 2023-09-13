@@ -2080,7 +2080,17 @@ input[name=r] {
   visibility: hidden;
 }
 
-.slides {
+.main-swiper .swiper-wrapper {
+	display: flex;
+}
+
+.main-swiper .swiper-slide {
+	display: flex;
+}
+
+
+
+/* .slides {
   position: absolute;
   overflow: hidden;
   width: 100vw;
@@ -2170,7 +2180,7 @@ input[name=r] {
 
 #r3:checked ~ .s1 {
   margin-left: -50%;
-}
+} */
 
 @media (max-width: 1300px) {
   .main__body {
