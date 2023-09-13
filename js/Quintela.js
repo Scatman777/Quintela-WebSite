@@ -20,12 +20,12 @@ for (let elm of elements) {
 
 var swiper = new Swiper(".main-swiper", {
 	watchOverflow: true,
-	slidesPerView: 3,
+	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	dots: false,
-	loop: true,
-	loopedSlides: 3,
+	// loop: true,
+	// loopedSlides: 3,
 	mousewheel: true,
 	keyboard: true,
 });
