@@ -2084,7 +2084,22 @@ input[name=r] {
 	display: none;
 	float: left;
 	height: 100%;
-	min-height: 1px;
+  }
+
+  .slick-slider .slick-slide:nth-child(1) {
+	background-image: url('css/img/1.jpg') center / cover no-repeat;
+  }
+
+  .slick-slider .slick-slide:nth-child(1) {
+	background-image: url('css/img/2.jpg') center / cover no-repeat;
+  }
+
+  .slick-slider .slick-slide:nth-child(1) {
+	background-image: url('css/img/3.jpg') center / cover no-repeat;
+  }
+
+  .slick-slider .slick-slide:nth-child(1) {
+	background-image: url('css/img/4.jpg') center / cover no-repeat;
   }
   
   [dir=rtl] .slick-slide {
