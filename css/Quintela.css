@@ -2006,15 +2006,15 @@ input[type=checkbox]:checked ~ .headerburger-list,
 }
 
 .swiper .swiper-slide:nth-child(1) {
-	background: url("./img/1.jpg") center / cover no-repeat;
+	background: url("/css/img/1.jpg") center / cover no-repeat;
 }
 
 .swiper .swiper-slide:nth-child(2) {
-	background: url("./img/2.jpg") center / cover no-repeat;
+	background: url("/css/img/2.jpg") center / cover no-repeat;
 }
 
 .swiper .swiper-slide:nth-child(3) {
-	background: url("./img/1.jpg") center / cover no-repeat;
+	background: url("/css/img/1.jpg") center / cover no-repeat;
 }
 
 /* .slick-slider {
