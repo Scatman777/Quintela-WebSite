@@ -20,7 +20,7 @@ for (let elm of elements) {
 
 var swiper = new Swiper(".swiper", {
 	watchOverflow: true,
-	slidesPerView: 'auto',
+	slidesPerView: 3,
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	dots: false,
