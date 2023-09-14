@@ -1992,6 +1992,7 @@ input[type=checkbox]:checked ~ .headerburger-list,
 	top: 0;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 }
 
 .swiper .swiper-wrapper {
@@ -2014,10 +2015,6 @@ input[type=checkbox]:checked ~ .headerburger-list,
 
 .swiper .swiper-slide:nth-child(3) {
 	background: url("/css/img/3.jpg") center / cover no-repeat;
-}
-
-.swiper .swiper-slide:nth-child(4) {
-	background: url("/css/img/4.jpg") center / cover no-repeat;
 }
 
 /* .slick-slider {
