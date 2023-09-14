@@ -2056,7 +2056,7 @@ input[name=r] {
 	transform: translate3d(0, 0, 0);
   }
   
-  .slick-slider .slick-track {
+  .s.sliders .slick-track {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -2079,7 +2079,7 @@ input[name=r] {
 	visibility: hidden;
   }
   
-  .slick-slider .slick-slide {
+  .sliders .slick-slide {
 	position: absolute;
 	top: 0;
 	left: 0;
