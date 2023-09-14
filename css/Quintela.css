@@ -2023,6 +2023,7 @@ input[name=r] {
 
 .slick-slider {
 	position: relative;
+	bottom: 988px;
 	display: block;
 	box-sizing: border-box;
 	-webkit-user-select: none;
@@ -2034,7 +2035,7 @@ input[name=r] {
 	-webkit-tap-highlight-color: transparent;
   }
   
-  .slick-list {
+  .slick-slider .slick-list {
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -2042,7 +2043,7 @@ input[name=r] {
 	padding: 0;
   }
   
-  .slick-list:focus {
+  .slick-slider .slick-list:focus {
 	outline: none;
   }
   
@@ -2056,7 +2057,7 @@ input[name=r] {
 	transform: translate3d(0, 0, 0);
   }
   
-  .slick-track {
+  .slick-slider .slick-track {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -2079,7 +2080,7 @@ input[name=r] {
 	visibility: hidden;
   }
   
-  .slick-slide {
+  .slick-slider .slick-slide {
 	display: none;
 	float: left;
 	height: 100%;
