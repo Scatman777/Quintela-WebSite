@@ -18,14 +18,14 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
-// var swiper = new Swiper(".main-swiper", {
-// 	watchOverflow: true,
-// 	slidesPerView: 'auto',
-// 	slidesPerGroup: 1,
-// 	slidesPerColumn: 1,
-// 	dots: false,
-// 	// loop: true,
-// 	// loopedSlides: 3,
-// 	mousewheel: true,
-// 	keyboard: true,
-// });
+var swiper = new Swiper(".swiper", {
+	watchOverflow: true,
+	slidesPerView: 'auto',
+	slidesPerGroup: 1,
+	slidesPerColumn: 1,
+	dots: false,
+	// loop: true,
+	// loopedSlides: 3,
+	mousewheel: true,
+	keyboard: true,
+});

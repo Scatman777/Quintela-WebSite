@@ -1993,16 +1993,16 @@ input[name=r] {
   visibility: hidden;
 }
 
-/* .main-swiper .swiper-wrapper {
+.swiper .swiper-wrapper {
 	display: flex;
 }
 
-.main-swiper .swiper-slide {
+.swiper .swiper-slide {
 	position: absolute;
 
 }
 
-.main-swiper {
+.swiper {
   position: relative;
   width: 100vw;
   height: calc(100% + 262px);
@@ -2012,14 +2012,14 @@ input[name=r] {
   z-index: -1;
 }
 
-.main-swiper .swiper-slide {
+.swiper .swiper-slide {
 	background: url("/css/img/1.jpg") center / cover no-repeat;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-} */
+}
 
 /* .slick-slider {
 	position: relative;
@@ -2032,9 +2032,9 @@ input[name=r] {
 	-khtml-user-select: none;
 	touch-action: pan-y;
 	-webkit-tap-highlight-color: transparent;
-  }
+}
   
-  .slick-slider .slick-list {
+  /* .slick-slider .slick-list {
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -2079,7 +2079,7 @@ input[name=r] {
 	visibility: hidden;
   }
   
-  .sliders .slick-slide {
+  .slick-slider .slick-slide {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2123,17 +2123,7 @@ input[name=r] {
   
   .single-slider {
   } */
-.slick-slider .sliders {
-	display: flex;
-}
 
-.slick-slider .slick-slide {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 
 .bar {
   width: 40px;
