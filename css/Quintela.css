@@ -2003,13 +2003,10 @@ input[name=r] {
 }
 
 .swiper {
-  position: relative;
-  width: 100vw;
-  height: calc(100% + 262px);
-  transform: translateY(-262px);
-  top: 0;
-  left: 0;
-  z-index: -1;
+}
+
+.swiper .swiper-wrapper {
+	display: flex;
 }
 
 .swiper .swiper-slide {
