@@ -2134,6 +2134,7 @@ input[name=r] {
   margin: 6px;
   cursor: pointer;
   background-color: #FFFFFF;
+  background: n;
   transition: all 0.4s ease;
 }
 .bar:hover {
