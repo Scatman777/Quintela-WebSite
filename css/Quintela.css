@@ -2257,8 +2257,7 @@ input[name=r] {
   position: absolute;
   overflow: hidden;
   width: 100vw;
-  height: calc(100% + 262px);
-  transform: translateY(-262px);
+  height: calc(100% + 379px);
   top: 0;
   left: 0;
   z-index: -1;
@@ -2273,13 +2272,21 @@ input[name=r] {
   background-size: cover;
   background-position: center;
 }
+
 .swiper .swiper-slide:nth-child(1) {
   background-image: url("./img/1.jpg");
   background-size: cover;
 }
+
 .swiper .swiper-slide:nth-child(2) {
   background-image: url("./img/2.jpg");
   background-size: cover;
+}
+
+@media (max-width: 907px) {
+	.swiper {
+		height: calc(100% + 1015px);
+	}
 }
 
 .bar {
@@ -2290,6 +2297,7 @@ input[name=r] {
   background-color: #FFFFFF;
   transition: all 0.4s ease;
 }
+
 .bar:hover {
   transform: scale(1.1);
   height: 8px;
