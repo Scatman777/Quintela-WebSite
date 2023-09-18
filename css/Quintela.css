@@ -2253,7 +2253,7 @@ input[name=r] {
   visibility: hidden;
 }
 
-.slides {
+.swiper {
   position: absolute;
   overflow: hidden;
   width: 100vw;
@@ -2264,7 +2264,7 @@ input[name=r] {
   z-index: -1;
 }
 
-.slides .slide {
+.swiper .swiper-slide {
   position: absolute;
   top: 0;
   left: 0;
@@ -2272,49 +2272,16 @@ input[name=r] {
   height: 100%;
   background-size: cover;
   background-position: center;
-  animation: slide 10s infinite;
-  filter: brightness(60%);
 }
-.slides .slide:nth-child(1) {
-  background-image: url("./img/1.svg");
+.swiper .swiper-slide:nth-child(1) {
+  background-image: url("./img/1.jpg");
   background-size: cover;
-  animation-delay: 0;
 }
-.slides .slide:nth-child(2) {
+.swiper .swiper-slide:nth-child(2) {
   background-image: url("./img/2.jpg");
   background-size: cover;
-  animation-delay: -2s;
-}
-.slides .slide:nth-child(3) {
-  background-image: url("./img/3.jpg");
-  background-size: cover;
-  animation-delay: -4s;
-}
-.slides .slide:nth-child(4) {
-  background-image: url("./img/4.jpg");
-  background-size: cover;
-  animation-delay: -6s;
-}
-.slides .slide:nth-child(5) {
-  background-image: url("./img/5.jpg");
-  background-size: cover;
-  animation-delay: -8s;
 }
 
-@keyframes slide {
-  0%, 15%, 100% {
-    transform: translateX(0);
-    animation-timing-function: ease;
-  }
-  25% {
-    transform: translateX(-100%);
-    animation-timing-function: step-end;
-  }
-  95% {
-    transform: translateX(100%);
-    animation-timing-function: ease;
-  }
-}
 .bar {
   width: 40px;
   height: 4px;
@@ -2326,23 +2293,6 @@ input[name=r] {
 .bar:hover {
   transform: scale(1.1);
   height: 8px;
-}
-
-input[name=r] {
-  position: absolute;
-  visibility: hidden;
-}
-
-#r1:checked ~ .s1 {
-  margin-left: 0;
-}
-
-#r2:checked ~ .s1 {
-  margin-left: -25%;
-}
-
-#r3:checked ~ .s1 {
-  margin-left: -50%;
 }
 
 @media (max-width: 1300px) {
