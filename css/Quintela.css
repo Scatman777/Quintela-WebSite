@@ -2331,6 +2331,12 @@ input[name=r] {
     margin: 7.5rem 0px 7rem 0px;
   }
 }
+@media (max-width: 768px) {
+	.main-column-info__column {
+		background: #1840A7;
+		transition: all 0.7s;
+	  }
+}
 @media (max-width: 450px) {
   .main__title {
     font-size: 8vw;
