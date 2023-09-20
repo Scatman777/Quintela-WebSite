@@ -437,7 +437,12 @@ h6 {
 		transform: translate(0%);
 	}
 
-	.footer__column-text.element-animation {
+	.footer__column:nth-child(1).element-animation {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.footer__column:nth-child(2).element-animation {
 		opacity: 1;
 		transform: translate(0%);
 	}
