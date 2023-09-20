@@ -1701,11 +1701,11 @@ body {
   flex: 1 1 416px;
   padding: 45px;
   border: 2px solid rgba(24, 64, 167, 0.5);
-  transition: all 0.7s ease 0.3s;
+  transition: all 0.5s;
 }
 .main-column-info__column:hover {
   background: #1840A7;
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 .main-column-info__column:hover .main-column-info__number,
 .main-column-info__column:hover h3,
@@ -2334,7 +2334,6 @@ input[name=r] {
 @media (max-width: 768px) {
 	.main-column-info__column {
 		background: #1840A7;
-		transition: all 0.7s;
 	  }
 }
 @media (max-width: 450px) {
