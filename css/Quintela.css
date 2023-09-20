@@ -389,18 +389,52 @@ h6 {
 
 /* MEDIA-ANIMATION__HIDAN */
 @media (max-width: 768px) {
-	.main__block,
-	.main__block-ellipse,
-	.main-column-info__column,
-	.main-robots__title,
-	.main-robots__text,
-	.main-robots__button-column,
-	.main-robots__section-img,
-	.main-news__column,
-	.footer__block-column-text,
-	.footer__logo,
-	.footer__block-down
-	 {
+	.main__block {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main__block-ellipse {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main-robots__title {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main-robots__text {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main-robots__button-column {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main-robots__section-img {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.main-news__column {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.footer__block-column-text {
+		opacity: 1;
+		transform: translate(0%);
+	}
+	
+	.footer__logo {
+		opacity: 1;
+		transform: translate(0%);
+	}
+
+	.footer__block-down {
 		opacity: 1;
 		transform: translate(0%);
 	}
