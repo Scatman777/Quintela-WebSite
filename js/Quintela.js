@@ -19,14 +19,14 @@ for (let elm of elements) {
 }
 
 var swiper = new Swiper(".swiper", {
-	watchOverflow: true,
+	watchOverflow: false,
 	slidesPerView: 'auto',
 	slidesPerGroup: 1,
 	slidesPerColumn: 1,
 	initialSlide: 0,
 	dots: false,
-	loop: true,
-	loopedSlides: 3,
+	// loop: true,
+	// loopedSlides: 3,
 	mousewheel: false,
 	keyboard: true,
 	speed: 900,

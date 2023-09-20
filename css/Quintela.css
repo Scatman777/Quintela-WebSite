@@ -2238,6 +2238,7 @@ input[type=checkbox]:checked ~ .headerburger-list,
     bottom: 153px;
   }
 }
+
 .navigation {
   display: flex;
   align-items: flex-end;
@@ -2246,11 +2247,6 @@ input[type=checkbox]:checked ~ .headerburger-list,
 .bar:hover {
   opacity: 1;
   transform: scale(1.1);
-}
-
-input[name=r] {
-  position: absolute;
-  visibility: hidden;
 }
 
 .swiper {
@@ -2264,23 +2260,17 @@ input[name=r] {
 }
 
 .swiper .swiper-slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background-size: cover;
   background-position: center;
 }
 
 .swiper .swiper-slide:nth-child(1) {
-  background-image: url("./img/1.jpg");
-  background-size: cover;
+  background: url("./img/1.jpg") center / cover no-repeat;
 }
 
 .swiper .swiper-slide:nth-child(2) {
-  background-image: url("./img/2.jpg");
-  background-size: cover;
+  background: url("./img/2.jpg") center / cover no-repeat;
+  filter: brightness(0.5);
 }
 
 .bar {
