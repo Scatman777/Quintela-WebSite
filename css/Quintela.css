@@ -1707,6 +1707,7 @@ body {
   background: #1840A7;
   transition: all 0.5s;
 }
+
 .main-column-info__column:hover .main-column-info__number,
 .main-column-info__column:hover h3,
 .main-column-info__column:hover a {
@@ -2331,11 +2332,6 @@ input[name=r] {
     margin: 7.5rem 0px 7rem 0px;
   }
 }
-@media (max-width: 768px) {
-	.main-column-info__column {
-		background: #1840A7;
-	  }
-}
 @media (max-width: 450px) {
   .main__title {
     font-size: 8vw;
@@ -2463,6 +2459,16 @@ input[name=r] {
   .main-robots__body,
   .main-construction__body {
     margin: 0px 0px 7.5rem 0px;
+  }
+
+  .main-column-info__column {
+	background: #1840A7;
+  }
+
+  .main-column-info__number,
+  .main-column-info__column h3,
+  .main-column-info__column a {
+	color: #FFFFFF;
   }
 }
 @media (max-width: 1270px) {
